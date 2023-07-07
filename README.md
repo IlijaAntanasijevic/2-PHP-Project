@@ -10,9 +10,9 @@ The entire content is in the database or in the config file.It is possible to se
 
 It is possible to block the user and watch their activity. A text file was used to complete it.
 
-You can find more in the documentation on the author page
-
 It has an admin panel with all CRUD operations for customizing the content of the app.
+
+You can find more in the documentation on the author page
 
 Link: https://sneakzilija.000webhostapp.com/index.php
 
