@@ -14,6 +14,8 @@ It has an admin panel with all CRUD operations for customizing the content of th
 
 You can find more in the documentation on the author page
 
+It was created on 2023-Jun-09
+
 Link: https://sneakzilija.000webhostapp.com/index.php
 
 Used template: https://themewagon.github.io/karma/
