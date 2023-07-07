@@ -6,7 +6,7 @@ Creating an e-commerce site, with the possibility for authorized users to buy th
 
 Worked with PDO and checks for SQL injections, also form validation on the client and server side. Pagination,sorting and filtering on server side.
 
-The entire content is in the database or in the config file.
+The entire content is in the database or in the config file.It is possible to send emails using PHP mailer.
 
 You can find more in the documentation on the author page
 
