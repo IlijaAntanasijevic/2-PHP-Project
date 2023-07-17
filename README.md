@@ -2,7 +2,7 @@
 
 Improvement of procedural PHP, creating a customized database.
 
-Creating an e-commerce site, with the possibility for authorized users to buy the product, it is also possible to leave comments and ratings in case the product has been purchased
+Creating an e-commerce site, with the possibility for authorized users to buy the product, it is also possible to leave comments and ratings in case the product has been purchased.
 
 Worked with PDO and checks for SQL injections, also form validation on the client and server side. Pagination,sorting and filtering on server side.
 
