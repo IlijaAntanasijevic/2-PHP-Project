@@ -32,6 +32,7 @@ function selectProducts($limit = 0){
     $products = $select->fetchAll();
     $products = getLastTwoPrices($products);
 
+
      return $products;
 }
 
@@ -67,9 +68,7 @@ function filterType($genderID,$categoryID,$colorID,$brendID,$sort,$maxPrice,$min
         else if($colorID != null){
             $query.= " WHERE p.color_id = :colorID ";
             $addANDInQuery = true;
-
         }
-
         if($brendID != null && $addANDInQuery){
             $query .= " AND p.brend_id = :brendID ";
 
@@ -84,8 +83,6 @@ function filterType($genderID,$categoryID,$colorID,$brendID,$sort,$maxPrice,$min
         else {
             $query .= " WHERE price.price BETWEEN $minPrice and $maxPrice";
         }
-
-
         if($sort == 'new'){
             $query .= " ORDER BY p.date DESC ";
         }
@@ -100,8 +97,7 @@ function filterType($genderID,$categoryID,$colorID,$brendID,$sort,$maxPrice,$min
         }
         $limit = (int)$limit * perPage;
         $perPage = perPage;
-        $query .= " LIMIT $limit, $perPage";
-
+        //$query .= " LIMIT $limit, $perPage";
 
         $select = $conn->prepare($query);
     if($genderID != null && $categoryID != null){
