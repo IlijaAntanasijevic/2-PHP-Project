@@ -1,7 +1,6 @@
 <?php
 $page = "home";
 $id = null;
-$ilija = null;
 if(isset($_GET["page"])){
     $page = $_GET["page"];
     if($page == "singleProduct"){
