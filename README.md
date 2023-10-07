@@ -10,7 +10,7 @@ The entire content is in the database or in the config file. It is possible to s
 
 It is possible to block the user and watch their activity. A text file was used to complete it.
 
-It has an admin panel with all CRUD operations for customizing the app's content.
+It has an admin panel with all CRUD operations for customizing the app's content
 
 More information is available on the author page in the documentation.
 
