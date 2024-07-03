@@ -1,5 +1,7 @@
 # Second PHP Project 
 
+#### Single Page Web App, using pure PHP
+
 Improvement of procedural PHP, creating a customized database.
 
 Creating an e-commerce site, with the possibility for authorized users to buy the product, it is also possible to leave comments and ratings in case the product has been purchased.
